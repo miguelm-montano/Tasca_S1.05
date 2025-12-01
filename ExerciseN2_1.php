@@ -39,11 +39,15 @@ Class Rectangle extends Shape {
 
 class Circle extends Shape {
 
-    protected float $radio;
+    private float $radio;
 
     public function __construct(float $radio) {
         $this->radio = $radio;
         
+    }
+
+    public function getRadio() {
+        return $this->radio;
     }
 
     public function calculateArea(): float {
