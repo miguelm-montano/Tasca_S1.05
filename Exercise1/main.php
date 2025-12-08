@@ -1,7 +1,7 @@
 <?php
 
-require_once "Dog.php";
-require_once "Cat.php";
+require_once "Animals/Dog.php";
+require_once "Animals/Cat.php";
 
 //Test
 $dog = new Dog("Beto", "Chicken");
